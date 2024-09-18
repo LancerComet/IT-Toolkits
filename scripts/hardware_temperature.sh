@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# This script retrieves and displays hardware temperature information, including CPU, GPU, and hard drive temperatures.
+# It uses various commands like 'sensors', 'nvidia-smi', and 'smartctl' to gather temperature data.
+
 # Print CPU temperature
 echo "=== CPU Temperature ==="
 if command -v sensors &> /dev/null; then

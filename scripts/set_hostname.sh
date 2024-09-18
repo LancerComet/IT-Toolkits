@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# This script changes the hostname of the system and updates /etc/hosts accordingly.
+# It takes a new hostname as an argument and requires sudo privileges to modify system files.
+
 # Check if an argument is provided
 if [ -z "$1" ]; then
   echo "Usage: $0 <new-hostname>"
